@@ -1,6 +1,17 @@
-/* Copyright (C) 2022 PrincessAlicorn
-   This program is meant to assist in the adding, listing, and removal of FSTAB entries
-   This program is licensed under the AGPL, see license.txt for more information*/
+/*     Copyright (C) 2022  PrincessAlicorn
+3	
+4	   This program is free software: you can redistribute it and/or modify
+5	   it under the terms of the GNU Affero General Public License as
+6	   published by the Free Software Foundation, either version 3 of the
+7	   License, or (at your option) any later version.
+8	
+9	   This program is distributed in the hope that it will be useful,
+10	   but WITHOUT ANY WARRANTY; without even the implied warranty of
+11	   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+12	   GNU Affero General Public License for more details.
+13	
+14	   You should have received a copy of the GNU Affero General Public License
+15	   along with this program.  If not, see <https://www.gnu.org/licenses/>.*/
 
 #include "lib/listfstab.h"
 #include "lib/misc.h"
