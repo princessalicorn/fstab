@@ -1,6 +1,6 @@
 # FSTAB
 
-A basic C utility made to simplify the viewing, deleting, and editing of FSTAB files! This is my first large C project.
+A basic C utility made to simplify the viewing, deleting, and adding of FSTAB entries! This is my first large C project.
 
 ## Getting started
 
