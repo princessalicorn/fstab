@@ -57,7 +57,11 @@ void list_fstab_files() {
                     char drive_name[32];
                     strcpy(line_buf, disk_dir); //copy set drive directory to buf
                     strcat(line_buf, uuid); //Add UUID
-                    readlink(line_buf, drive_name, arr_len(drive_name)); // Return us the drive name
+                    if (readlink(line_buf, drive_name, arr_len(drive_name)) == -1) {
+		   	            printf("Error when reading symbolic link\n");
+			            exit(EXIT_FAILURE); 
+                    } // Return us the drive name
+                    memmove(&drive_name[0], &drive_name[6], 32+1); //Cropping the ../../ off
                     memmove(&drive_name[0], &drive_name[6], 32+1); //Cropping the ../../ off
                     printf("|--> Drive: %s\n", drive_name); //Output
                     memset(line_buf, 0, arr_len(line_buf)); //Force line_buf[] to be empty so output is correct.
