@@ -64,7 +64,7 @@ int add_field_wizard() {
     struct fields new_entry;
     printf("Add a new FSTAB Entry:\n");
     list_fstab_files();
-    printf("\nEnter the following:\nEnter ? at any time for help or exit at to stop.\n");
+    printf("\nEnter the following:\nEnter ? at any time for help or exit to stop.\n");
     int need_help = 1;
     while (need_help == 1) {
         printf("Drive: ");
