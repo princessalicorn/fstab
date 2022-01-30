@@ -225,5 +225,9 @@ int add_field_wizard() {
     }
     fprintf(fstab, "%s %s %s %s %c %c\n", new_entry.drive_name, new_entry.mount_point, new_entry.fs, new_entry.opts, new_entry.dump, new_entry.pass);
     fclose(fstab);
+    int has_systemd = check_for_sysd(); //Refresh systemd if that is what PID 1 is.
+    if (has_systemd == 1) {
+        system("systemctl daemon-reload");
+    }
     return 0;
 }
