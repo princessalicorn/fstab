@@ -6,7 +6,13 @@
 void help_statement() {
   printf("Usage:\n");
   printf("  fstab [options]\n\n");
-  printf("View and modify /etc/fstab and other filesystem tables.");
+  printf("View and modify /etc/fstab and other filesystem tables.\n");
+  printf("Subcommands: \n\n");
+  printf("-h: prints this help statement\n");
+  printf("-v: prints version information\n");
+  printf("-l: lists fstab entries\n");
+  printf("-r: interactive prompt to assist in removing fstab entries\n");
+  printf("-a: interactive wizard to creat fstab entries\n");
   return;
 }
 
