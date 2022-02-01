@@ -26,8 +26,16 @@ Currently this will only work on linux systems due to the fact the returning of 
 If I continue to add features, it will likely be as follows :
 
 1. Make it so if you type `fstab --remove (drive_name)`, it will search your fstab file and delete entries with a matching partition/drive name
-2. Add long options
-3. Make a way to edit fstab entries inline?
+2. Make a way to edit fstab entries inline?
+
+## Changelog
+Version 1.0.1 uses getopt_long
+`fstab -a` -> `fstab --add`
+`fstab -r` -> `fstab --remove`
+`fstab -l` -> `fstab --list`
+`fstab -h` -> `fstab --help`
+`fstab -v` -> `fstab --version`
+All of these options will work and you can see them by invoking the help option.
 
 ## License
 This is licensed under the AGPL license. A copy of the License is in this repository as well as a disclaimer
