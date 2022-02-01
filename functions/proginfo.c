@@ -8,11 +8,11 @@ void help_statement() {
   printf("  fstab [options]\n\n");
   printf("View and modify /etc/fstab and other filesystem tables.\n");
   printf("Subcommands: \n\n");
-  printf("-h: prints this help statement\n");
-  printf("-v: prints version information\n");
-  printf("-l: lists fstab entries\n");
-  printf("-r: interactive prompt to assist in removing fstab entries\n");
-  printf("-a: interactive wizard to creat fstab entries\n");
+  printf("--help    | -h: prints this help statement\n");
+  printf("--version | -v: prints version information\n");
+  printf("--list    | -l: lists fstab entries\n");
+  printf("--remove  | -r: interactive prompt to assist in removing fstab entries\n");
+  printf("--add     | -a: interactive wizard to creat fstab entries\n");
   return;
 }
 
@@ -22,7 +22,7 @@ void program_information() {
   printf("  / /_   \\__ \\ / / / /| | / __  |\n");
   printf(" / __/  ___/ // / / ___ |/ /_/ / \n");
   printf("/_/    /____//_/ /_/  |_/_____/  \n\n");
-  printf("Fstab version 1.0.0\n\n");
+  printf("Fstab version 1.0.1\n\n");
   printf("Copyright (C) 2022 princessalicorn (https://gitlab.com/PrincessAlicorn)\n");
   printf("FSTAB is free software: you can redistribute it and/or modify\n");
   printf("it under the terms of the GNU Affero General Public License as\n");
