@@ -14,9 +14,9 @@ It should compile nearly instantly!
 
 It does three things currently. It cam
 
-1. List fstab entries. run `fstab -l`! This also will also return the drive names for any UUIDs you have inside your /etc/fstab file/
-2. Remove fstab entries. You can use this utillity to interactivly delete fstab entries using `fstab -r`
-3. Add fstab entries. You can add entries with an interactive prompt and help menus using `fstab -a`
+1. List fstab entries. run `fstab --list`! This also will also return the drive names for any UUIDs you have inside your /etc/fstab file/
+2. Remove fstab entries. You can use this utillity to interactivly delete fstab entries using `fstab --remove`
+3. Add fstab entries. You can add entries with an interactive prompt and help menus using `fstab --add`
 
 ## Platforms?
 
@@ -25,7 +25,7 @@ Currently this will only work on linux systems due to the fact the returning of 
 ## Roadmap?
 If I continue to add features, it will likely be as follows :
 
-1. Make it so if you type `fstab -r (drive_name)`, it will search your fstab file and delete entries with a matching partition/drive name
+1. Make it so if you type `fstab --remove (drive_name)`, it will search your fstab file and delete entries with a matching partition/drive name
 2. Add long options
 3. Make a way to edit fstab entries inline?
 
