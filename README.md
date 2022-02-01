@@ -30,11 +30,11 @@ If I continue to add features, it will likely be as follows :
 
 ## Changelog
 Version 1.0.1 uses getopt_long
-`fstab -a` -> `fstab --add`
-`fstab -r` -> `fstab --remove`
-`fstab -l` -> `fstab --list`
-`fstab -h` -> `fstab --help`
-`fstab -v` -> `fstab --version`
+1. `fstab -a` -> `fstab --add`
+2. `fstab -r` -> `fstab --remove`
+3. `fstab -l` -> `fstab --list`
+4. `fstab -h` -> `fstab --help`
+5. `fstab -v` -> `fstab --version`
 All of these options will work and you can see them by invoking the help option.
 
 ## License
