@@ -20,7 +20,7 @@ It does three things currently. It cam
 
 ## Platforms?
 
-Currently this will only work on linux systems due to the fact the returning of UUID functions is currently dependent on a directory that only Linux has. I could likely fix this if I decide to continue to work on the project so it works on other UNIX-based or UNIX-like systems. 
+Currently this will only work on GNU/Linux systems due to the fact the returning of UUID functions is currently dependent on a directory that only GNU/Linux has. I could likely fix this if I decide to continue to work on the project so it works on other UNIX-based or UNIX-like systems. 
 
 ## Roadmap?
 If I continue to add features, it will likely be as follows :
