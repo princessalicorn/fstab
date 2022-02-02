@@ -1,7 +1,7 @@
 /* Copyright (C) 2022 PrincessAlicorn*/
 
 #include <stdio.h>
-#include "../lib/proginfo.h"
+#include "../include/proginfo.h"
 
 void help_statement() {
   printf("Usage:\n");

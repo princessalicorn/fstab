@@ -1,7 +1,7 @@
 /* Copyright (C) 2022 PrincessAlicorn*/
 
-#include "../lib/listfstab.h"
-#include "../lib/misc.h"
+#include "../include/listfstab.h"
+#include "../include/misc.h"
 
 const char disk_dir[19] = "/dev/disk/by-uuid/";
 

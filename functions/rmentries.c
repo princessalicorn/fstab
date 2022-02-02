@@ -1,8 +1,8 @@
 /* Copyright (C) 2022 PrincessAlicorn*/
 
-#include "../lib/misc.h"
-#include "../lib/listfstab.h"
-#include "../lib/rmentries.h"
+#include "../include/misc.h"
+#include "../include/listfstab.h"
+#include "../include/rmentries.h"
 
 int rw_operation(int delline) {
     FILE *fstab = fopen(FSTAB_FILE, "r");

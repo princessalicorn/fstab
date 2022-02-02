@@ -1,6 +1,6 @@
 /* Copyright (C) 2022 PrincessAlicorn*/
 
-#include "../lib/misc.h"
+#include "../include/misc.h"
 
 int check_for_root() {
   uid_t uid = getuid();

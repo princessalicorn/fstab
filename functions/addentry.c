@@ -1,8 +1,8 @@
 /* Copyright (C) 2022 PrincessAlicorn */
 
-#include "../lib/misc.h"
-#include "../lib/addentry.h"
-#include "../lib/listfstab.h"
+#include "../include/misc.h"
+#include "../include/addentry.h"
+#include "../include/listfstab.h"
 
 void drive_help() {
     printf("Here you want to enter the drive you want to make the entry for. \n");
