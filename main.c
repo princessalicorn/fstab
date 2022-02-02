@@ -14,11 +14,11 @@
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#include "lib/listfstab.h"
-#include "lib/misc.h"
-#include "lib/rmentries.h"
-#include "lib/proginfo.h"
-#include "lib/addentry.h"
+#include "include/listfstab.h"
+#include "include/misc.h"
+#include "include/rmentries.h"
+#include "include/proginfo.h"
+#include "include/addentry.h"
 #include <getopt.h>
 
 int main (int argc, char *argv[]) {
