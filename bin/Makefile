@@ -4,7 +4,7 @@ INSTALL_DIR = /bin
 EXEC_LOCATION = $(INSTALL_DIR)/$(BIN_NAME)
 
 make:
-		$(CC) -o $(BIN_NAME) ../main.c ../lib/*.h ../functions/*.c
+		$(CC) -o $(BIN_NAME) ../main.c ../include/*.h ../functions/*.c
 
 install:	
 		mv $(BIN_NAME) $(EXEC_LOCATION)
